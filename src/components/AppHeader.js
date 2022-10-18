@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 const AppHeader = () => {
   return (
@@ -27,9 +28,9 @@ const AppHeader = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link " href="#">
-                  Danh mục
-                </a>
+                <Link className="nav-link " to="/products">
+                  Xe
+                </Link>
               </li>
               <li className="nav-item dropdown">
                 <a
