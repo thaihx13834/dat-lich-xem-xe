@@ -46,7 +46,7 @@ const AppHeader = () => {
               <li className="nav-item">
                 <a
                   className="nav-link "
-                  href="#"
+                  href="/booking"
                   tabIndex="-1"
                   aria-disabled="true"
                 >
