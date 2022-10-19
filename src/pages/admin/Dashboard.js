@@ -5,7 +5,6 @@ import React from 'react'
 const Dashboard = (props) => {
   return (
     <div>
-
         <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">
           Launch
         </button>
