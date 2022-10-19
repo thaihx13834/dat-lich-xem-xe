@@ -10,6 +10,8 @@ import WebsiteLayout from "./layouts/WebsiteLayout";
 import Homepage from "./pages/client/Homepage";
 import Product from "./pages/client/Product";
 import ProductDetail from "./pages/client/ProductDetail";
+import Signin from "./pages/client/Signin";
+import Signup from "./pages/client/Signup";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/products" element={<Product />} />
           <Route path="/productsd" element={<ProductDetail />} />
         </Route>
+        <Route path="/signin" element={<Signin />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </div>
   );
