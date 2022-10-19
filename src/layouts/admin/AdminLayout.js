@@ -13,23 +13,23 @@ const AdminLayout = () => {
   return (
     <Layout>
       <SideBar/>
-      <div class="content-wrap">
-        <div class="main">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-8 p-r-0 title-margin-right">
-                        <div class="page-header">
-                            <div class="page-title">
+      <div className="content-wrap">
+        <div className="main">
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-lg-8 p-r-0 title-margin-right">
+                        <div className="page-header">
+                            <div className="page-title">
                                 <h1>Hello, <span>Welcome Here</span></h1>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 p-l-0 title-margin-left">
-                        <div class="page-header">
-                            <div class="page-title">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                    <li class="breadcrumb-item active">Home</li>
+                    <div className="col-lg-4 p-l-0 title-margin-left">
+                        <div className="page-header">
+                            <div className="page-title">
+                                <ol className="breadcrumb">
+                                    <li className="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                    <li className="breadcrumb-item active">Home</li>
                                 </ol>
                             </div>
                         </div>
