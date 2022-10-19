@@ -1,6 +1,8 @@
+import { Breadcrumb } from "antd";
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import anh1 from "../../anh/ppo.jpg";
 
 const ProductDetail = () => {
   return (
@@ -12,9 +14,9 @@ const ProductDetail = () => {
         <div className="row px-4">
           <div className="col-sm-5">
             <img
-              src="https://loremflickr.com/520/240/dog"
+              src={anh1}
               alt=".."
-              className="d-block mx-auto img-fluid"
+              className="d-block mx-auto img-fluid w-100"
             />
             <div className="row justify-content-between m-4">
               <div className="col-sm-2">

@@ -4,7 +4,7 @@ import styled from "styled-components";
 const AppHeader = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light p-2">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light-50 p-2">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             VietPhu
