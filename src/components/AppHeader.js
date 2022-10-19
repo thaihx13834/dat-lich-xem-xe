@@ -34,7 +34,7 @@ const AppHeader = () => {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link "
-                  href="#"
+                  href="about"
                   id="navbarDropdown"
                   role="button"
                   aria-expanded="false"

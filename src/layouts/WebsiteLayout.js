@@ -7,7 +7,7 @@ const WebsiteLayout = () => {
   return (
     <Layout>
       <AppHeader />
-      <Content className="bg-light">
+      <Content className="">
         <Outlet />
       </Content>
       <Footer>This is Footer!</Footer>
