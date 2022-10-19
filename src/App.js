@@ -8,6 +8,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import { Route, Routes } from "react-router-dom";
 import WebsiteLayout from "./layouts/WebsiteLayout";
 import Homepage from "./pages/client/Homepage";
+import Product from "./pages/client/Product";
+import ProductDetail from "./pages/client/ProductDetail";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<WebsiteLayout />}>
           <Route index element={<Homepage />} />
+          <Route path="/products" element={<Product />} />
+          <Route path="/productsd" element={<ProductDetail />} />
         </Route>
       </Routes>
     </div>
