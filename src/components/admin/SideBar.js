@@ -2,11 +2,11 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 const SideBar = () => {
   return (
-    <div class="sidebar sidebar-hide-to-small sidebar-shrink sidebar-gestures">
-      <div class="nano">
-        <div class="nano-content">
+    <div className="sidebar sidebar-hide-to-small sidebar-shrink sidebar-gestures">
+      <div className="nano">
+        <div className="nano-content">
           <ul>
-            <div class="logo">
+            <div className="logo">
               <a href="index.html">
                 <img src="images/logo.png" alt="" /> <span>Focus</span>
               </a>
@@ -15,15 +15,15 @@ const SideBar = () => {
               
               
                 <Link to={`dashboard`}>
-                    <i class="ti-home"></i> Dashboard
+                    <i className="ti-home"></i> Dashboard
                 </Link>
             </li>
 
-            <li class="label">Apps</li>
+            <li className="label">Apps</li>
             <li>
-              <a class="sidebar-sub-toggle">
-                <i class="ti-bar-chart-alt"></i> Charts{" "}
-                <span class="sidebar-collapse-icon ti-angle-down"></span>
+              <a className="sidebar-sub-toggle">
+                <i className="ti-bar-chart-alt"></i> Charts{" "}
+                <span className="sidebar-collapse-icon ti-angle-down"></span>
               </a>
               <ul>
                 <li>
@@ -51,29 +51,29 @@ const SideBar = () => {
             </li>
             <li>
               <a href="app-event-calender.html">
-                <i class="ti-calendar"></i> Calender{" "}
+                <i className="ti-calendar"></i> Calender{" "}
               </a>
             </li>
             <li>
               <a href="app-email.html">
-                <i class="ti-email"></i> Email
+                <i className="ti-email"></i> Email
               </a>
             </li>
             <li>
               <a href="app-profile.html">
-                <i class="ti-user"></i> Profile
+                <i className="ti-user"></i> Profile
               </a>
             </li>
             <li>
               <a href="app-widget-card.html">
-                <i class="ti-layout-grid2-alt"></i> Widget
+                <i className="ti-layout-grid2-alt"></i> Widget
               </a>
             </li>
-            <li class="label">Features</li>
+            <li className="label">Features</li>
             <li>
-              <a class="sidebar-sub-toggle">
-                <i class="ti-layout"></i> UI Elements{" "}
-                <span class="sidebar-collapse-icon ti-angle-down"></span>
+              <a className="sidebar-sub-toggle">
+                <i className="ti-layout"></i> UI Elements{" "}
+                <span className="sidebar-collapse-icon ti-angle-down"></span>
               </a>
               <ul>
                 <li>
@@ -103,9 +103,9 @@ const SideBar = () => {
               </ul>
             </li>
             <li>
-              <a class="sidebar-sub-toggle">
-                <i class="ti-panel"></i> Components{" "}
-                <span class="sidebar-collapse-icon ti-angle-down"></span>
+              <a className="sidebar-sub-toggle">
+                <i className="ti-panel"></i> Components{" "}
+                <span className="sidebar-collapse-icon ti-angle-down"></span>
               </a>
               <ul>
                 <li>
@@ -153,9 +153,9 @@ const SideBar = () => {
               </ul>
             </li>
             <li>
-              <a class="sidebar-sub-toggle">
-                <i class="ti-layout-grid4-alt"></i> Table{" "}
-                <span class="sidebar-collapse-icon ti-angle-down"></span>
+              <a className="sidebar-sub-toggle">
+                <i className="ti-layout-grid4-alt"></i> Table{" "}
+                <span className="sidebar-collapse-icon ti-angle-down"></span>
               </a>
               <ul>
                 <li>
@@ -174,9 +174,9 @@ const SideBar = () => {
               </ul>
             </li>
             <li>
-              <a class="sidebar-sub-toggle">
-                <i class="ti-heart"></i> Icons{" "}
-                <span class="sidebar-collapse-icon ti-angle-down"></span>
+              <a className="sidebar-sub-toggle">
+                <i className="ti-heart"></i> Icons{" "}
+                <span className="sidebar-collapse-icon ti-angle-down"></span>
               </a>
               <ul>
                 <li>
@@ -185,9 +185,9 @@ const SideBar = () => {
               </ul>
             </li>
             <li>
-              <a class="sidebar-sub-toggle">
-                <i class="ti-map"></i> Maps{" "}
-                <span class="sidebar-collapse-icon ti-angle-down"></span>
+              <a className="sidebar-sub-toggle">
+                <i className="ti-map"></i> Maps{" "}
+                <span className="sidebar-collapse-icon ti-angle-down"></span>
               </a>
               <ul>
                 <li>
@@ -198,17 +198,17 @@ const SideBar = () => {
                 </li>
               </ul>
             </li>
-            <li class="label">Form</li>
+            <li className="label">Form</li>
             <li>
               <a href="form-basic.html">
-                <i class="ti-view-list-alt"></i> Basic Form{" "}
+                <i className="ti-view-list-alt"></i> Basic Form{" "}
               </a>
             </li>
-            <li class="label">Extra</li>
+            <li className="label">Extra</li>
             <li>
-              <a class="sidebar-sub-toggle">
-                <i class="ti-files"></i> Invoice{" "}
-                <span class="sidebar-collapse-icon ti-angle-down"></span>
+              <a className="sidebar-sub-toggle">
+                <i className="ti-files"></i> Invoice{" "}
+                <span className="sidebar-collapse-icon ti-angle-down"></span>
               </a>
               <ul>
                 <li>
@@ -220,9 +220,9 @@ const SideBar = () => {
               </ul>
             </li>
             <li>
-              <a class="sidebar-sub-toggle">
-                <i class="ti-target"></i> Pages{" "}
-                <span class="sidebar-collapse-icon ti-angle-down"></span>
+              <a className="sidebar-sub-toggle">
+                <i className="ti-target"></i> Pages{" "}
+                <span className="sidebar-collapse-icon ti-angle-down"></span>
               </a>
               <ul>
                 <li>
@@ -238,12 +238,12 @@ const SideBar = () => {
             </li>
             <li>
               <a href="../documentation/index.html">
-                <i class="ti-file"></i> Documentation
+                <i className="ti-file"></i> Documentation
               </a>
             </li>
             <li>
               <a>
-                <i class="ti-close"></i> Logout
+                <i className="ti-close"></i> Logout
               </a>
             </li>
           </ul>
