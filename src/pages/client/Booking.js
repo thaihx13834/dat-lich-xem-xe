@@ -38,19 +38,6 @@ const Booking = () => {
                           <Input />
                         </Form.Item>
 
-                        <Form.Item
-                          name="password"
-                          label="Địa chỉ"
-                          rules={[
-                            {
-                              required: true,
-                              message: "Please input your Password!",
-                            },
-                          ]}
-                        >
-                          <Input />
-                        </Form.Item>
-
                         <Form.Item style={{ marginBottom: 0 }}>
                           <Form.Item
                             name="phone"
