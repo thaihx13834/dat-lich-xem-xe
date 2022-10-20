@@ -23,7 +23,7 @@ const AppHeader = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/">
                   Trang chủ
                 </a>
               </li>
@@ -35,7 +35,7 @@ const AppHeader = () => {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link "
-                  href="#"
+                  href="about"
                   id="navbarDropdown"
                   role="button"
                   aria-expanded="false"
