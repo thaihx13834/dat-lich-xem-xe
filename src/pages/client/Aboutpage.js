@@ -107,7 +107,6 @@ const Aboutpage = (props) => {
             </Content>
           </div>
         </div>
-     
       </div>
     </div>
   );
