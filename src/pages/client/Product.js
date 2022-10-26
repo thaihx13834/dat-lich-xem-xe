@@ -14,6 +14,8 @@ import {
 } from "antd";
 import React from "react";
 import styled from "styled-components";
+import carDemo from "../../anh/cardemo.jpeg";
+import banner from "../../anh/banner.jpg";
 
 const Product = () => {
   const { Sider, Content } = Layout;
@@ -71,8 +73,8 @@ const Product = () => {
     <div className="bg-white">
       <div>
         <img
-          src="https://picsum.photos/id/247/1520/300"
-          className="d-block mx-auto img-fluid"
+          src={banner}
+          className="d-block mx-auto img-fluid w-100"
           alt="..."
         />
       </div>
@@ -105,11 +107,7 @@ const Product = () => {
                 <div className="col-lg-3 col-md-6 mb-4">
                   <div className="card">
                     <div className="view overlay">
-                      <img
-                        src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                        className="card-img-top"
-                        alt=""
-                      />
+                      <img src={carDemo} className="card-img-top" alt="" />
                       <a>
                         <div className="mask rgba-white-slight"></div>
                       </a>
@@ -137,11 +135,7 @@ const Product = () => {
                 <div className="col-lg-3 col-md-6 mb-4">
                   <div className="card">
                     <div className="view overlay">
-                      <img
-                        src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                        className="card-img-top"
-                        alt=""
-                      />
+                      <img src={carDemo} className="card-img-top" alt="" />
                       <a>
                         <div className="mask rgba-white-slight"></div>
                       </a>
@@ -169,11 +163,7 @@ const Product = () => {
                 <div className="col-lg-3 col-md-6 mb-4">
                   <div className="card">
                     <div className="view overlay">
-                      <img
-                        src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                        className="card-img-top"
-                        alt=""
-                      />
+                      <img src={carDemo} className="card-img-top" alt="" />
                       <a>
                         <div className="mask rgba-white-slight"></div>
                       </a>
@@ -201,11 +191,7 @@ const Product = () => {
                 <div className="col-lg-3 col-md-6 mb-4">
                   <div className="card">
                     <div className="view overlay">
-                      <img
-                        src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                        className="card-img-top"
-                        alt=""
-                      />
+                      <img src={carDemo} className="card-img-top" alt="" />
                       <a>
                         <div className="mask rgba-white-slight"></div>
                       </a>
@@ -233,11 +219,7 @@ const Product = () => {
                 <div className="col-lg-3 col-md-6 mb-4">
                   <div className="card">
                     <div className="view overlay">
-                      <img
-                        src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                        className="card-img-top"
-                        alt=""
-                      />
+                      <img src={carDemo} className="card-img-top" alt="" />
                       <a>
                         <div className="mask rgba-white-slight"></div>
                       </a>
@@ -265,11 +247,7 @@ const Product = () => {
                 <div className="col-lg-3 col-md-6 mb-4">
                   <div className="card">
                     <div className="view overlay">
-                      <img
-                        src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                        className="card-img-top"
-                        alt=""
-                      />
+                      <img src={carDemo} className="card-img-top" alt="" />
                       <a>
                         <div className="mask rgba-white-slight"></div>
                       </a>
@@ -297,11 +275,7 @@ const Product = () => {
                 <div className="col-lg-3 col-md-6 mb-4">
                   <div className="card">
                     <div className="view overlay">
-                      <img
-                        src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                        className="card-img-top"
-                        alt=""
-                      />
+                      <img src={carDemo} className="card-img-top" alt="" />
                       <a>
                         <div className="mask rgba-white-slight"></div>
                       </a>

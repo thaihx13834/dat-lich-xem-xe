@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import anh1 from "../../anh/ppo.jpg";
-
+import carDemo from "../../anh/cardemo.jpeg";
 const ProductDetail = () => {
   return (
     <div className="bg-light">
@@ -21,7 +21,7 @@ const ProductDetail = () => {
             <div className="row justify-content-between m-4">
               <div className="col-sm-2">
                 <img
-                  src="https://loremflickr.com/320/240/dog"
+                  src={carDemo}
                   alt=".."
                   className="d-block mx-auto img-fluid"
                 />
@@ -29,7 +29,7 @@ const ProductDetail = () => {
 
               <div className="col-sm-2">
                 <img
-                  src="https://loremflickr.com/320/240/dog"
+                  src={carDemo}
                   alt=".."
                   className="d-block mx-auto img-fluid"
                 />
@@ -37,7 +37,7 @@ const ProductDetail = () => {
 
               <div className="col-sm-2">
                 <img
-                  src="https://loremflickr.com/320/240/dog"
+                  src={carDemo}
                   alt=".."
                   className="d-block mx-auto img-fluid"
                 />
@@ -45,7 +45,7 @@ const ProductDetail = () => {
 
               <div className="col-sm-2">
                 <img
-                  src="https://loremflickr.com/320/240/dog"
+                  src={carDemo}
                   alt=".."
                   className="d-block mx-auto img-fluid"
                 />
@@ -54,7 +54,7 @@ const ProductDetail = () => {
           </div>
           <div className="col-sm-7 mw-600">
             <h3>Tên sản phẩm</h3>
-            <p>
+            <p style={{ width: "400px" }}>
               10 fresh ready to use templates We are going further and giving to
               you ready to use templates! Use them as you like, as an
               inspiration, prototype or final product for your customers.
@@ -103,8 +103,8 @@ const ProductDetail = () => {
             đồng).
           </p>
           <img
-            src="https://picsum.photos/id/247/1520/300"
-            className="d-block mx-auto img-fluid my-3"
+            src={anh1}
+            className="d-block mx-auto img-fluid my-3 w-100"
             alt="..."
           />
 
@@ -141,11 +141,7 @@ const ProductDetail = () => {
               <div className="col-lg-3 col-md-6 mb-4">
                 <div className="card">
                   <div className="view overlay">
-                    <img
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                      className="card-img-top"
-                      alt=""
-                    />
+                    <img src={carDemo} className="card-img-top" alt="" />
                     <a>
                       <div className="mask rgba-white-slight"></div>
                     </a>
@@ -153,7 +149,7 @@ const ProductDetail = () => {
 
                   <div className="card-body text-center">
                     <a href="" className="grey-text">
-                      <h5>Sport wear</h5>
+                      <h5>Mercedes-Benz</h5>
                     </a>
 
                     <h4 className="font-weight-bold blue-text">
@@ -173,11 +169,7 @@ const ProductDetail = () => {
               <div className="col-lg-3 col-md-6 mb-4">
                 <div className="card">
                   <div className="view overlay">
-                    <img
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                      className="card-img-top"
-                      alt=""
-                    />
+                    <img src={carDemo} className="card-img-top" alt="" />
                     <a>
                       <div className="mask rgba-white-slight"></div>
                     </a>
@@ -185,7 +177,7 @@ const ProductDetail = () => {
 
                   <div className="card-body text-center">
                     <a href="" className="grey-text">
-                      <h5>Sport wear</h5>
+                      <h5>Mercedes-Benz</h5>
                     </a>
 
                     <h4 className="font-weight-bold blue-text">
@@ -205,11 +197,7 @@ const ProductDetail = () => {
               <div className="col-lg-3 col-md-6 mb-4">
                 <div className="card">
                   <div className="view overlay">
-                    <img
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                      className="card-img-top"
-                      alt=""
-                    />
+                    <img src={carDemo} className="card-img-top" alt="" />
                     <a>
                       <div className="mask rgba-white-slight"></div>
                     </a>
@@ -217,7 +205,7 @@ const ProductDetail = () => {
 
                   <div className="card-body text-center">
                     <a href="" className="grey-text">
-                      <h5>Sport wear</h5>
+                      <h5>Mercedes-Benz</h5>
                     </a>
 
                     <h4 className="font-weight-bold blue-text">
@@ -237,11 +225,7 @@ const ProductDetail = () => {
               <div className="col-lg-3 col-md-6 mb-4">
                 <div className="card">
                   <div className="view overlay">
-                    <img
-                      src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                      className="card-img-top"
-                      alt=""
-                    />
+                    <img src={carDemo} className="card-img-top" alt="" />
                     <a>
                       <div className="mask rgba-white-slight"></div>
                     </a>
@@ -249,7 +233,7 @@ const ProductDetail = () => {
 
                   <div className="card-body text-center">
                     <a href="" className="grey-text">
-                      <h5>Sport wear</h5>
+                      <h5>Mercedes-Benz</h5>
                     </a>
 
                     <h4 className="font-weight-bold blue-text">

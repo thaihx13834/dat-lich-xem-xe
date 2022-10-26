@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Banner from "../../components/client/Banner";
+import Banner from "../../components/Banner";
+import logoMerc from "../../anh/Mercedes-Benz-Logo.png";
+import subBanner from "../../anh/subbanner1.jpg";
+import carDemo from "../../anh/cardemo.jpeg";
 const Homepage = () => {
   return (
     <div>
@@ -14,7 +18,7 @@ const Homepage = () => {
           <CategoryItem className="col-sm-2 p-3 bg-light text-white">
             <Link to="/">
               <img
-                src="https://picsum.photos/id/217/70/70"
+                src={logoMerc}
                 alt=".."
                 className="d-block mx-auto img-fluid"
               />
@@ -24,7 +28,7 @@ const Homepage = () => {
           <CategoryItem className="col-sm-2 p-3 bg-light text-white">
             <Link to="/">
               <img
-                src="https://picsum.photos/id/217/70/70"
+                src={logoMerc}
                 alt=".."
                 className="d-block mx-auto img-fluid"
               />
@@ -34,7 +38,7 @@ const Homepage = () => {
           <CategoryItem className="col-sm-2 p-3 bg-light text-white">
             <Link to="/">
               <img
-                src="https://picsum.photos/id/117/70/70"
+                src={logoMerc}
                 alt=".."
                 className="d-block mx-auto img-fluid"
               />
@@ -44,7 +48,7 @@ const Homepage = () => {
           <CategoryItem className="col-sm-2 p-3 bg-light text-white">
             <Link to="/">
               <img
-                src="https://picsum.photos/id/317/70/70"
+                src={logoMerc}
                 alt=".."
                 className="d-block mx-auto img-fluid"
               />
@@ -54,7 +58,7 @@ const Homepage = () => {
           <CategoryItem className="col-sm-2 p-3 bg-light text-white">
             <Link to="/">
               <img
-                src="https://picsum.photos/id/417/70/70"
+                src={logoMerc}
                 alt=".."
                 className="d-block mx-auto img-fluid"
               />
@@ -64,7 +68,7 @@ const Homepage = () => {
           <CategoryItem className="col-sm-2 p-3 bg-light text-white">
             <Link to="/">
               <img
-                src="https://picsum.photos/id/517/70/70"
+                src={logoMerc}
                 alt=".."
                 className="d-block mx-auto img-fluid"
               />
@@ -74,7 +78,7 @@ const Homepage = () => {
           <CategoryItem className="col-sm-2 p-3 bg-light text-white">
             <Link to="/">
               <img
-                src="https://picsum.photos/id/317/70/70"
+                src={logoMerc}
                 alt=".."
                 className="d-block mx-auto img-fluid"
               />
@@ -84,7 +88,7 @@ const Homepage = () => {
           <CategoryItem className="col-sm-2 p-3 bg-light text-white">
             <Link to="/">
               <img
-                src="https://picsum.photos/id/517/70/70"
+                src={logoMerc}
                 alt=".."
                 className="d-block mx-auto img-fluid"
               />
@@ -93,10 +97,10 @@ const Homepage = () => {
         </MainCategories>
       </Categories>
 
-      <Subbanner className="">
+      <Subbanner className="h-50">
         <img
-          src="https://picsum.photos/id/217/1520/300"
-          className="d-block mx-auto img-fluid"
+          src={subBanner}
+          className="d-block mx-auto img-fluid w-100 "
           alt="..."
         />
       </Subbanner>
@@ -111,11 +115,7 @@ const Homepage = () => {
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card">
                 <div className="view overlay">
-                  <img
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                    className="card-img-top"
-                    alt=""
-                  />
+                  <img src={carDemo} className="card-img-top" alt="" />
                   <a>
                     <div className="mask rgba-white-slight"></div>
                   </a>
@@ -123,7 +123,7 @@ const Homepage = () => {
 
                 <div className="card-body text-center">
                   <a href="" className="grey-text">
-                    <h5>Sport wear</h5>
+                    <h5>Mercedes-Benz</h5>
                   </a>
 
                   <h4 className="font-weight-bold blue-text">
@@ -143,11 +143,7 @@ const Homepage = () => {
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card">
                 <div className="view overlay">
-                  <img
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                    className="card-img-top"
-                    alt=""
-                  />
+                  <img src={carDemo} className="card-img-top" alt="" />
                   <a>
                     <div className="mask rgba-white-slight"></div>
                   </a>
@@ -155,7 +151,7 @@ const Homepage = () => {
 
                 <div className="card-body text-center">
                   <a href="" className="grey-text">
-                    <h5>Sport wear</h5>
+                    <h5>Mercedes-Benz</h5>
                   </a>
 
                   <h4 className="font-weight-bold blue-text">
@@ -175,11 +171,7 @@ const Homepage = () => {
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card">
                 <div className="view overlay">
-                  <img
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                    className="card-img-top"
-                    alt=""
-                  />
+                  <img src={carDemo} className="card-img-top" alt="" />
                   <a>
                     <div className="mask rgba-white-slight"></div>
                   </a>
@@ -187,7 +179,7 @@ const Homepage = () => {
 
                 <div className="card-body text-center">
                   <a href="" className="grey-text">
-                    <h5>Sport wear</h5>
+                    <h5>Mercedes-Benz</h5>
                   </a>
 
                   <h4 className="font-weight-bold blue-text">
@@ -207,11 +199,7 @@ const Homepage = () => {
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card">
                 <div className="view overlay">
-                  <img
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                    className="card-img-top"
-                    alt=""
-                  />
+                  <img src={carDemo} className="card-img-top" alt="" />
                   <a>
                     <div className="mask rgba-white-slight"></div>
                   </a>
@@ -219,7 +207,7 @@ const Homepage = () => {
 
                 <div className="card-body text-center">
                   <a href="" className="grey-text">
-                    <h5>Sport wear</h5>
+                    <h5>Mercedes-Benz</h5>
                   </a>
 
                   <h4 className="font-weight-bold blue-text">
@@ -239,11 +227,7 @@ const Homepage = () => {
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card">
                 <div className="view overlay">
-                  <img
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                    className="card-img-top"
-                    alt=""
-                  />
+                  <img src={carDemo} className="card-img-top" alt="" />
                   <a>
                     <div className="mask rgba-white-slight"></div>
                   </a>
@@ -251,7 +235,7 @@ const Homepage = () => {
 
                 <div className="card-body text-center">
                   <a href="" className="grey-text">
-                    <h5>Sport wear</h5>
+                    <h5>Mercedes-Benz</h5>
                   </a>
 
                   <h4 className="font-weight-bold blue-text">
@@ -271,11 +255,7 @@ const Homepage = () => {
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card">
                 <div className="view overlay">
-                  <img
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                    className="card-img-top"
-                    alt=""
-                  />
+                  <img src={carDemo} className="card-img-top" alt="" />
                   <a>
                     <div className="mask rgba-white-slight"></div>
                   </a>
@@ -283,7 +263,7 @@ const Homepage = () => {
 
                 <div className="card-body text-center">
                   <a href="" className="grey-text">
-                    <h5>Sport wear</h5>
+                    <h5>Mercedes-Benz</h5>
                   </a>
 
                   <h4 className="font-weight-bold blue-text">
@@ -303,11 +283,7 @@ const Homepage = () => {
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card">
                 <div className="view overlay">
-                  <img
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/13.jpg"
-                    className="card-img-top"
-                    alt=""
-                  />
+                  <img src={carDemo} className="card-img-top" alt="" />
                   <a>
                     <div className="mask rgba-white-slight"></div>
                   </a>
@@ -315,7 +291,7 @@ const Homepage = () => {
 
                 <div className="card-body text-center">
                   <a href="" className="grey-text">
-                    <h5>Sport wear</h5>
+                    <h5>Mercedes-Benz</h5>
                   </a>
 
                   <h4 className="font-weight-bold blue-text">
@@ -345,7 +321,11 @@ const Homepage = () => {
           <div className="row wow fadeIn">
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card">
-                <img className="card-img-top" src="..." alt="Card image cap" />
+                <img
+                  className="card-img-top"
+                  src={carDemo}
+                  alt="Card image cap"
+                />
                 <div className="card-body">
                   <h5 className="card-title">Tiêu đề bài viết</h5>
                   <p className="card-text">
@@ -361,7 +341,11 @@ const Homepage = () => {
 
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card">
-                <img className="card-img-top" src="..." alt="Card image cap" />
+                <img
+                  className="card-img-top"
+                  src={carDemo}
+                  alt="Card image cap"
+                />
                 <div className="card-body">
                   <h5 className="card-title">Tiêu đề bài viết</h5>
                   <p className="card-text">
@@ -377,7 +361,11 @@ const Homepage = () => {
 
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card">
-                <img className="card-img-top" src="..." alt="Card image cap" />
+                <img
+                  className="card-img-top"
+                  src={carDemo}
+                  alt="Card image cap"
+                />
                 <div className="card-body">
                   <h5 className="card-title">Tiêu đề bài viết</h5>
                   <p className="card-text">
@@ -393,7 +381,11 @@ const Homepage = () => {
 
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card">
-                <img className="card-img-top" src="..." alt="Card image cap" />
+                <img
+                  className="card-img-top"
+                  src={carDemo}
+                  alt="Card image cap"
+                />
                 <div className="card-body">
                   <h5 className="card-title">Tiêu đề bài viết</h5>
                   <p className="card-text">

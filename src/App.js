@@ -5,7 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Route, Routes } from "react-router-dom";
-import WebsiteLayout from "./layouts/WebsiteLayout";
 import Homepage from "./pages/client/Homepage";
 import Product from "./pages/client/Product";
 import ProductDetail from "./pages/client/ProductDetail";
@@ -15,6 +14,7 @@ import Booking from "./pages/client/Booking";
 import AdminLayout from "./layouts/admin/AdminLayout";
 import Dashboard from "./pages/admin/Dashboard";
 import Aboutpage from "./pages/client/Aboutpage";
+import WebsiteLayout from "./layouts/client/WebsiteLayout";
 
 function App() {
   return (
@@ -29,7 +29,6 @@ function App() {
         </Route>
         <Route path="admin" element={<AdminLayout />}>
           <Route path="dashboard" element={<Dashboard />} />
-          
         </Route>
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />

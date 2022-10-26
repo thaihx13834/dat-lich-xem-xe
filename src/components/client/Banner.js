@@ -1,4 +1,5 @@
 import React from "react";
+import banner from "../anh/banner.jpg";
 
 const Banner = () => {
   return (
@@ -32,22 +33,22 @@ const Banner = () => {
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="10000">
           <img
-            src="https://picsum.photos/id/217/1520/300"
-            className="d-block mx-auto img-fluid"
+            src={banner}
+            className="d-block mx-auto img-fluid w-100"
             alt="..."
           />
         </div>
         <div className="carousel-item" data-bs-interval="2000">
           <img
-            src="https://picsum.photos/id/247/1520/300"
-            className="d-block mx-auto img-fluid"
+            src={banner}
+            className="d-block mx-auto img-fluid w-100"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://picsum.photos/id/227/1520/300"
-            className="d-block mx-auto img-fluid"
+            src={banner}
+            className="d-block mx-auto img-fluid w-100"
             alt="..."
           />
         </div>
