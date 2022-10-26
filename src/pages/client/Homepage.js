@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Banner from "../../components/client/Banner";
-import Banner from "../../components/Banner";
 import logoMerc from "../../anh/Mercedes-Benz-Logo.png";
 import subBanner from "../../anh/subbanner1.jpg";
 import carDemo from "../../anh/cardemo.jpeg";
